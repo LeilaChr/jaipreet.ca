@@ -2,12 +2,11 @@ import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
-    const currentYear = new Date().getFullYear();
     return (
         <div className="xl:px-64 lg:px-32 md:px-16 px-8 py-12 flex justify-between sm:flex-row flex-col gap-6 bg-black">
             <div className="sm:w-[50%] w-full">
                 <h3 className="text-2xl">
-                    <b>© {currentYear} JAIPREET SINGH</b>
+                    <b>© 2023 JAIPREET SINGH</b>
                 </h3>
             </div>
             <div className="flex justify-between sm:w-[50%] w-full">
